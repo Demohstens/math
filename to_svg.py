@@ -1,11 +1,12 @@
 import os
 from array_of_points import create_vs
 
-def to_svg(list_of_vectors, filename = "output.svg", file_location = ".\\", color = "black", width = 1):
+def to_svg(list_of_vectors, scale, filename = "output.svg", file_location = ".\\", color = "black", width = 1):
+    BOX = scale[0] / 2
     with open(file_location + filename, "w") as svg_file:
         svg_file.write("""<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">""")
-        svg_file.write("\n<svg>")
+        svg_file.write(f"\n<svg width=\"{scale[0]}\" height=\"{scale[1]}\" viewBox=\"-{BOX} -{BOX} {BOX} {BOX}\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">")
         for i, v in enumerate(list_of_vectors):
             if i == len(list_of_vectors) - 1:
                 break
@@ -18,4 +19,4 @@ def to_svg(list_of_vectors, filename = "output.svg", file_location = ".\\", colo
     return "Done!"
 
 if __name__ == "__main__":
-    print(to_svg(create_vs()))
+    print(to_svg(create_vs(25, 50), (200, 200)))

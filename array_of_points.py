@@ -1,11 +1,10 @@
 from Vector2 import Vector2, Point, vector2
 from random import randrange
 
-def create_vs():
+def create_vs(number_of_points = 50, RAN = 250):
     ps = []
     vs = []
-    RAN = 250
-    for i in range(10):
+    for i in range(number_of_points):
         ps.append(Point(randrange(-RAN, RAN), randrange(-RAN, RAN)))
 
     for i, p in enumerate(ps):
