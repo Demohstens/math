@@ -2,10 +2,7 @@ from Point import Point
 
 
 class Vector2(Point):
-    def __init__(self, x : float, y : float) -> None:
-        self.x = x
-        self.y = y
-    
+
     def __str__(self) -> str:
         return(f"({self.x}, {self.y})")
     
@@ -47,15 +44,9 @@ class Vector2(Point):
         
     def __getitem__(self, index):
         match index:
-            case 0:
+            case 0 | "x":
                 return self.x
-            case "x":
-                return self.x
-            case 1:
-                return self.y
-            case "y":
-                return self.y
-            case -1:
+            case 1 | "y" | -1:
                 return self.y
             case _:
                 raise IndexError 
@@ -89,3 +80,4 @@ def create_function(vector, origin = Point(0, 0)):
         return f"f(x) = {m}x +{b}"
     else:
         return f"f(x) = {m}x {b}"
+    

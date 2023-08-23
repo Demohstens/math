@@ -11,4 +11,4 @@ def create_vs(number_of_points = 50, RAN = 250):
         if i < len(ps) - 1:
             vector = vector2(p, ps[i+1])
             vs.append(vector)
-    return vs
+    return vs, ps
