@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "705ad21d8d74dc66",
+    "type": "split",
+    "children": [
+      {
+        "id": "36a67f37a8a70d6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "349a3ea23f8f1a6d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 35,
+                  "y": 133.5,
+                  "zoom": -0.16438681790088266
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9b0438f23466f30a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b01ec54f59ee6451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wendestelle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a996f83ade4355e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineare Funktionen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "846718aeb5aaf29f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
+          },
+          {
+            "id": "0df14cf31531a097",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "394882b948440fbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "79cc3ce9c6211abd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf253604ed54c89c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2512ffa75aa5538c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b88ac97c2a8e708f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "473fa9477d50795c",
+    "type": "split",
+    "children": [
+      {
+        "id": "671e347fb49f6d2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cac66da0995a2f8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c10c11f19aba8b99",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "cf253604ed54c89c",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Tangente.md",
+    "p-q Formel.md",
+    "Pasted image 20220115234411.png",
+    "Gleichung.md",
+    "Graph.md",
+    "Durschnitt.md",
+    "Extremstellen.md",
+    "Ableitung.md",
+    "Ableitungsregeln.md",
+    "Anwendungsaufgaben.md",
+    "Checkliste 3. Mathe Klausur 11..md",
+    "Binomische Formeln.md",
+    "Wendestelle.md",
+    "Sekante.md",
+    "Vorzeichenwechselkriterium.md",
+    "Differenzenquotient.md",
+    "Koordinatensystem.md",
+    "Intervall.md"
+  ]
+}
