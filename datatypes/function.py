@@ -45,7 +45,6 @@ class _Function:
 class LinearFunction(_Function):
     '''
     This class represents a linear function.
-
     Inherits: _Function
     
     Args:
@@ -54,7 +53,6 @@ class LinearFunction(_Function):
 
     Methods:
         solve(solve_for): Solves for the given variable. Accepts "x", "y", and "c".
-        
         get_point(point=None): Returns the first-best point on the function if possible. 
     
     '''
