@@ -1,4 +1,4 @@
-from Point import Point
+from datatypes.point import Point
 
 
 class Vector2(Point):
@@ -24,7 +24,7 @@ class Vector2(Point):
             raise TypeError("Iterable superseeds max length for type 'Vector2'")
     #Problem: Strings
 
-    def __mul__(self, v) -> super:
+    def __mul__(self, v):
         v = float(v) #Makes isinstance shorter by not requiring the same test for ints
         if isinstance(v, float):
             return Vector2(self.x * v, self.y * v)
