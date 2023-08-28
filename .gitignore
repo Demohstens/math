@@ -1,4 +1,5 @@
 /.vscode
 /__pycache__
 *.cpp 
-!/datatypes
+*.exe
+/datatypes/__pycache__

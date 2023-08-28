@@ -1,3 +1,5 @@
+from misc import assert_attrs
+
 class Coordinate:
     '''
     Abstract class representing a coordinate in 2, or n-dimensional space.
@@ -6,8 +8,6 @@ class Coordinate:
         if args:
             for i, n in enumerate(args):
                 setattr(self, "x" + str(i +1), n)
-
-from aliases import aliases
 
 class Point(Coordinate):
     '''
@@ -21,10 +21,12 @@ class Point(Coordinate):
         self.x2 = x2
         self.x = x1
         self.y = x2
+        self.last = (x1, x2)
 
+    @assert_attrs
     def __str__(self) -> str:
         return (f"Point at ({self.x1}|{self.x2})")
-                    
+    
     def add_y(self, x2):
         self.x2 += x2
     def add_x(self, x1):
