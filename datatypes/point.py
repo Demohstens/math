@@ -7,7 +7,7 @@ class Coordinate:
             for i, n in enumerate(args):
                 setattr(self, "x" + str(i +1), n)
 
-
+from aliases import aliases
 
 class Point(Coordinate):
     '''
@@ -19,6 +19,8 @@ class Point(Coordinate):
     def __init__(self, x1, x2) -> None:
         self.x1 = x1
         self.x2 = x2
+        self.x = x1
+        self.y = x2
 
     def __str__(self) -> str:
         return (f"Point at ({self.x1}|{self.x2})")
@@ -37,5 +39,5 @@ class Point(Coordinate):
         self.x1 += point.x1
         self.x2 += point.x2
 
-new = Point(1, 2, 5)
+new = Point(1, 2)
 print(new)
