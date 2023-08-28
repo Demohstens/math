@@ -1,9 +1,0 @@
-{
-    "python.analysis.typeCheckingMode": "off",
-    "files.associations": {
-        "unordered_map": "cpp",
-        "type_traits": "cpp",
-        "iostream": "cpp",
-        "iosfwd": "cpp"
-    }
-}
