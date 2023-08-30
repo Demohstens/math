@@ -12,6 +12,7 @@ private:
             Coordinate() = default;
             //Overloads
             float operator =(float num);
+            operator int() const;
     };
 public:
     Coordinate x;
