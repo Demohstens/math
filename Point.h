@@ -21,18 +21,6 @@ class Point {
                     this->value += num;
                     return this->value;
                 }
-                int operator += (int num) {
-                    this->value += num;
-                    return this->value;
-                }
-                int operator++(int) {
-                    this->value++;
-                    return this->value;
-                }
-                int operator--(int) {
-                    this->value--;
-                    return this->value;
-                }
                 bool operator==(int num) {
                     return this->value == num;
                 }
@@ -40,23 +28,7 @@ class Point {
                     this->value -= num;
                     return this->value;
                 }
-                int operator -= (int num) {
-                    this->value -= num;
-                    return this->value;
-                }
-                int operator*(int num) {
-                    this->value *= num;
-                    return this->value;
-                }
-                int operator*= (int num) {
-                    this->value *= num;
-                    return this->value;
-                }
                 int operator/(int num) {
-                    this->value /= num;
-                    return this->value;
-                }
-                int operator/= (int num) {
                     this->value /= num;
                     return this->value;
                 }
@@ -74,79 +46,7 @@ class Point {
         bool operator!=(Point& other) {
             return this->x != other.x || this->y != other.y;
         }
-        //Generate operator overload functions for all possible combinations of operators
-
-        //Addition
-        Point operator+(Point& other) {
-            return Point(this->x + other.x, this->y + other.y);
-        }
-        Point operator+(int num) {
-            return Point(this->x + num, this->y + num);
-        }
-        Point operator+=(Point& other) {
-            return Point(this->x += other.x, this->y += other.y);
-        }
-        Point operator+=(int num) {
-            return Point(this->x += num, this->y += num);
-        }
-        //Subtraction
-        Point operator-(Point& other) {
-            return Point(this->x - other.x, this->y - other.y);
-        }
-        Point operator-(int num) {
-            return Point(this->x - num, this->y - num);
-        }
-        Point operator-=(Point& other) {
-            return Point(this->x -= other.x, this->y -= other.y);
-        }
-        Point operator-=(int num) {
-            return Point(this->x -= num, this->y -= num);
-        }
-        //Multiplication
-        Point operator*(Point& other) {
-            return Point(this->x * other.x, this->y * other.y);
-        }
-        Point operator*(int num) {
-            return Point(this->x * num, this->y * num);
-        }
-        Point operator*=(Point& other) {
-            return Point(this->x *= other.x, this->y *= other.y);
-        }
-        Point operator*=(int num) {
-            return Point(this->x *= num, this->y *= num);
-        }
-        //Division
-        Point operator/(Point& other) {
-            return Point(this->x / other.x, this->y / other.y);
-        }
-        Point operator/(int num) {
-            return Point(this->x / num, this->y / num);
-        }
-        Point operator/=(Point& other) {
-            return Point(this->x /= other.x, this->y /= other.y);
-        }
-        Point operator/=(int num) {
-            return Point(this->x /= num, this->y /= num);
-        }
-        //Increment
-        Point operator++(int) {
-            return Point(this->x++, this->y++);
-        }
-        //Decrement
-        Point operator--(int) {
-            return Point(this->x--, this->y--);
-        }
-        //Negation
-        Point operator-() {
-            return Point(-this->x, -this->y);
-        }
-        //Assignment
-        Point operator=(Point& other) {
-            return Point(this->x = other.x, this->y = other.y);
-        }
-        Point operator=(int num) {
-            return Point(this->x = num, this->y = num);
-        }
+        //Operator overloads went here but it's so cluttered. Gonna leave out for now
         private:
         //function to express a coordinate change [placeholder for now]
         void coordinateChanged(int change) {
