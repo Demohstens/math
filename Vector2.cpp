@@ -17,3 +17,7 @@ float Vector2::Coordinate::operator =(float num) {
     this->value = num;
     return this->value;
 }
+
+int main() {
+
+}

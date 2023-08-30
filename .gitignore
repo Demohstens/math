@@ -3,3 +3,6 @@
 *.exe
 *.pyc
 /datatypes/__pycache__
+/.vs 
+CppProperties.json
+*.obj

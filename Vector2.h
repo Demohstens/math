@@ -9,6 +9,7 @@ private:
         public:
             //Constructor
             Coordinate(Vector2* v, float num) : super(v), value(num) {};
+            Coordinate() = default;
             //Overloads
             float operator =(float num);
     };
