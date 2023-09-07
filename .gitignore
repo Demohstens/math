@@ -1,0 +1,10 @@
+/.vscode
+/__pycache__ 
+*.exe
+*.pyc
+/datatypes/__pycache__
+/.vs 
+CppProperties.json
+*.obj
+/rust
+.gitignore
