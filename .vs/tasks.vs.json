@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Vector2",
+      "appliesTo": "Vector2.cpp",
+      "type": "launch"
+    }
+  ]
+}
