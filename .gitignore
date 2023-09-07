@@ -6,5 +6,4 @@
 /.vs 
 CppProperties.json
 *.obj
-/rust
 .gitignore
